@@ -1,0 +1,24 @@
+CD into folder
+
+create venv then activate
+
+pip install django
+
+start project : "django-admin startproject [projectname]"
+
+cd into [projectname] folder 
+
+python manage.py startapp myapp
+
+(go to settings, add "myapp" to installed_apps)
+
+to start server : (make sure cd into project) "python manage.py runserver
+
+` for adding changes
+
+to add changes in model : "python manage.py makemigrations"
+
+python manage.py migrate
+
+`
+create admin  : 'python manage.py createsuperuser' , then go /admin on root link.
